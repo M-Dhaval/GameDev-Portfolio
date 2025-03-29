@@ -1,3 +1,8 @@
+
+/* Use Fira Code (or any monospace font) */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
+
+
 :root {
     --primary: #2c3e50;
     --secondary: #3498db;
@@ -36,6 +41,7 @@ header {
 
 h1 {
     font-size: 2.5rem;
+    margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
 
@@ -43,6 +49,26 @@ h2 {
     color: var(--secondary);
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+.techie-tagline{
+    font-size: 1.15rem;
+    margin-bottom: 1.5rem;
+}
+
+.monospace {
+   font-family: 'Fira Code', monospace;
+   letter-spacing: -0.05em;
+}
+
+.blinking-cursor {
+  animation: blink 1s step-end infinite;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  from, to { opacity: 0; }
+  50% { opacity: 1; }
 }
 
 .studio-header {
@@ -505,6 +531,11 @@ footer {
 
 /* For mobile responsiveness */
 @media (max-width: 600px) {
+
+    .techie-tagline{
+        font-size: .9rem;
+    }
+
     .download-badge {
         height: 37px;
     }
