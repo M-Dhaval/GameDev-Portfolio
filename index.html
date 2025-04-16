@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <header>
+
+    <!-- <header>
         <div class="header-content">
             <h1>Dhaval Makvana</h1>
             <h2>Unity Game Developer</h2>
@@ -33,7 +34,7 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header> -->
 
     <div class="container">
 
@@ -41,9 +42,10 @@
             <h1>🎮 Projects 🎮</h1>
             <!-- <h2>👨‍💻 Code. ✏️ Design. 🕹️ Play. ♾️ Repeat.</h2> -->
             <div class="techie-tagline">
-                <span class="monospace">👨‍💻 CODE. ✏️ DESIGN. 🕹️ PLAY. ♾️ REPEAT<span class="blinking-cursor">_</span></span>
-              </div>
-            <!-- <p>Click on any project to view videos, screenshots, and more details.</p> -->
+                <span class="monospace">👨‍💻 CODE. ✏️ DESIGN. 🕹️ PLAY. ♾️ REPEAT<span
+                        class="blinking-cursor">_</span></span>
+            </div>
+
             <p>Explore my portfolio of Unity game development projects, showcasing my expertise in multiplayer gaming,
                 real-time systems, and immersive gameplay experiences.</p>
         </section>
@@ -51,19 +53,19 @@
         <!-- Company Header Section -->
         <!-- <div class="studio-header"> <h3>Company Name Projects</h3> </div> -->
 
-        <section class="projects-grid">
+        <section class="projects-grid" id="projects-container">
+
+            <!-- Projects will be dynamically inserted here -->
 
             <!-- Impulse -->
-            <div class="project-card">
-                <!-- Game Icon -->
-                <img class="game-icon" src="images/Games/Impulse/icon.png" alt="Weapon Craft Icon">
+            <!-- <div class="project-card">
+                <img class="game-icon" src="images/Games/Impulse/icon.png" alt="Impulse icon">
                 <div class="project-image-container">
-                    <div class="project-image"
-                        style="background-image: url(images/Games/Impulse/Project_Thumbnail.png);">
+                    <div class="project-image" style="background-image: url(images/Games/Impulse/Thumbnail.png);">
                     </div>
-                    <!-- <div class="game-tags">
+                    <div class="game-tags">
                         <span class="game-tag tag-sports">FPS</span>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">Impulse</h3>
@@ -78,385 +80,32 @@
                         <span class="tech-item">Opsive</span>
                     </div>
 
-                    <!-- <a href="N/A" class="play-button" target="_blank">
-                        <i class="fab fa-google-play"></i> Play Store </a> -->
-                    <!-- Add these download buttons -->
-                    <!-- <div class="download-badges">
+                    <a href="N/A" class="play-button" target="_blank">
+                        <i class="fab fa-google-play"></i> Play Store
+                    </a>
+
+                    Add these download buttons
+                    <div class="download-badges">
                         <a href="#" target="_blank">
-                            <img class="download-badge"
-                                src="images/PlayStore_Btn.png"
-                                alt="Get it on Google Play">
+                            <img class="download-badge" src="images/PlayStore_Btn.png" alt="Get it on Google Play">
                         </a>
                         Only include App Store if available
                         <a href="#" target="_blank">
-                            <img class="download-badge"
-                                src="images/AppStore_Btn.png"
-                                alt="Download on the App Store">
+                            <img class="download-badge" src="images/AppStore_Btn.png" alt="Download on the App Store">
                         </a>
-                    </div> -->
+                    </div>
 
                 </div>
-            </div>
-
-            <!-- Champions Arena -->
-            <div class="project-card">
-                <!-- Game Icon -->
-                <img class="game-icon" src="images/Games/ChampionsArena/icon.webp" alt="Weapon Craft Icon">
-                <div class="project-image-container">
-                    <div class="project-image"
-                        style="background-image: url(images/Games/ChampionsArena/Project_Thumbnail.png);">
-                    </div>
-                    <!-- <div class="game-tags">
-                        <span class="game-tag tag-sports">Sports</span>
-                    </div> -->
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">Champions Arena</h3>
-                    <p class="project-subtitle">MOBA-style Third-Person Shooter (TPS)</p>
-                    <p class="project-description">Featuring 1v1, 2v2, and 3v3 battles with runtime map loading and
-                        three unique maps for dynamic gameplay.</p>
-                    <div class="tech-list">
-                        <span class="tech-item">Unity</span>
-                        <span class="tech-item">C#</span>
-                        <span class="tech-item">Google Ads</span>
-                        <span class="tech-item">Firebase</span>
-                        <span class="tech-item">PlayFab</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- 6Ball Cricket -->
-            <div class="project-card">
-                <!-- Game Icon -->
-                <img class="game-icon" src="images/Games/6Ball_Cricket/icon.png" alt="Weapon Craft Icon">
-                <div class="project-image-container">
-                    <div class="project-image"
-                        style="background-image: url('images/Games/6Ball_Cricket/Thumbnail.png');">
-                    </div>
-                    <!-- <div class="game-tags">
-                        <span class="game-tag tag-sports">Cricket</span>
-                    </div> -->
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">6Ball Cricket</h3>
-                    <p class="project-subtitle">Real-time multiplayer 3D cricket game</p>
-                    <p class="project-description">Features 1-over (6-ball) gameplay with an exciting tournament system
-                        for competitive matches.</p>
-                    <div class="tech-list">
-                        <span class="tech-item">Unity</span>
-                        <span class="tech-item">C#</span>
-                        <span class="tech-item">WebSocket</span>
-                        <span class="tech-item">Payment Gateway</span>
-                        <span class="tech-item">Firebase</span>
-                        <span class="tech-item">Facebook Integration</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- MPL Cricket -->
-            <div class="project-card">
-                <!-- Game Icon -->
-                <img class="game-icon" src="images/Games/MPL_Cricket/icon1.png" alt="Weapon Craft Icon">
-                <div class="project-image-container">
-                    <div class="project-image"
-                        style="background-image: url('images/Games/MPL_Cricket/Project_Thumbnail.png');">
-                    </div>
-                    <!-- <div class="game-tags">
-                        <span class="game-tag tag-sports">Sports</span>
-                    </div> -->
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">MPL Cricket</h3>
-                    <p class="project-subtitle">Madhya Pradesh League: Scindia Cup Cricket</p>
-                    <p class="project-description">A franchise-based professional T20 cricket league game featuring
-                        realistic gameplay mechanics and multiple game modes.</p>
-                    <div class="tech-list">
-                        <span class="tech-item">Unity</span>
-                        <span class="tech-item">C#</span>
-                        <span class="tech-item">Gameplay Mechanics</span>
-                        <span class="tech-item">League System</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tank.io -->
-            <div class="project-card">
-                <!-- Game Icon -->
-                <img class="game-icon" src="images/Games/Tank.io/icon.jpg" alt="Tank Icon">
-                <div class="project-image-container">
-                    <div class="project-image"
-                        style="background-image: url('images/Games/Tank.io/Project_Thumbnail - Copy.png');">
-                    </div>
-                    <!-- <div class="game-tags">
-                        <span class="game-tag tag-sports">Puzzle</span>
-                    </div> -->
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">Tank.io - Demo</h3>
-                    <p class="project-subtitle">Multiplayer tank battle game</p>
-                    <p class="project-description">Features real-time combat and strategic gameplay with multiplayer
-                        functionality.</p>
-                    <div class="tech-list">
-                        <span class="tech-item">Unity</span>
-                        <span class="tech-item">C#</span>
-                        <span class="tech-item">Photon PUN 2</span>
-                        <span class="tech-item">Multiplayer</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Step Out And Learn -->
-            <div class="project-card">
-                <!-- Game Icon -->
-                <img class="game-icon" src="images/Games/StepOutAndLearn/icon.jpg" alt="Weapon Craft Icon">
-                <div class="project-image-container">
-                    <div class="project-image"
-                        style="background-image: url('images/Games/StepOutAndLearn/Project_Thumbnail.png');">
-                    </div>
-                    <!-- <div class="game-tags">
-                        <span class="game-tag tag-sports">Puzzle</span>
-                    </div> -->
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">Step Out And Learn</h3>
-                    <p class="project-subtitle">Location-Based Educational Project</p>
-                    <p class="project-description">A teacher assigns an activity to a student and can track the
-                        student's location in real time during the activity.</p>
-                    <div class="tech-list">
-                        <span class="tech-item">Unity</span>
-                        <span class="tech-item">C#</span>
-                        <span class="tech-item">WebSockets</span>
-                        <span class="tech-item">Maps API</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Weapon Craft Run and Guns Hero -->
-            <div class="project-card">
-                <!-- Game Icon -->
-                <img class="game-icon" src="images/Games/Weapon_Craft/icon.webp" alt="Weapon Craft Icon">
-                <div class="project-image-container">
-                    <!-- Game Thumbnail -->
-                    <div class="project-image"
-                        style="background-image: url('images/Games/Weapon_Craft/Project_Thumbnail - Copy.png');">
-                    </div>
-                    <!-- <div class="game-tags">
-                        <span class="game-tag tag-sports">Puzzle</span>
-                    </div> -->
-                </div>
-                <!-- Game Content -->
-                <div class="project-content">
-                    <h3 class="project-title">Weapon Craft Run and Guns Hero</h3>
-                    <p class="project-subtitle">Weapon Craft Run – Shoot, Collect, and Build the Ultimate Firearm</p>
-                    <p class="project-description">Shoot the obstacles & doors, Collect the chargers which you load,
-                        Upgrade your gun and evolve!</p>
-                    <div class="tech-list">
-                        <span class="tech-item">Unity</span>
-                        <span class="tech-item">C#</span>
-                        <span class="tech-item">Firebase</span>
-                        <span class="tech-item">Google Ads</span>
-                        <span class="tech-item">Ads Mediation</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Hidden Objects -->
-            <div class="project-card">
-                <!-- Game Icon -->
-                <img class="game-icon" src="images/Games/Hidden_Objects/icon.webp" alt="Weapon Craft Icon">
-                <div class="project-image-container">
-                    <!-- Game Thumbnail -->
-                    <div class="project-image"
-                        style="background-image: url('images/Games/Hidden_Objects/Project_Thumbnail.webp');">
-                    </div>
-                    <!-- <div class="game-tags">
-                        <span class="game-tag tag-sports">Puzzle</span>
-                    </div> -->
-                </div>
-                <!-- Game Content -->
-                <div class="project-content">
-                    <h3 class="project-title">Hidden Objects</h3>
-                    <p class="project-subtitle">Hidden Objects – Uncover Secrets, Solve Puzzles, and Sharpen Your Mind
-                    </p>
-                    <p class="project-description">Hidden Objects is an immersive puzzle game designed to challenge
-                        players' observation skills and problem-solving abilities. As a key contributor to this project,
-                        I worked on enhancing the gameplay experience through engaging mechanics, intuitive UI/UX
-                        design, and intricate level development.</p>
-                    <div class="tech-list">
-                        <span class="tech-item">Unity</span>
-                        <span class="tech-item">C#</span>
-                        <span class="tech-item">Firebase</span>
-                        <span class="tech-item">Google Ads</span>
-                        <span class="tech-item">Ads Mediation</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Color Ring Puzzle -->
-            <div class="project-card">
-                <!-- Game Icon -->
-                <img class="game-icon" src="images/Games/Color_Ring_Puzzle/icon.webp" alt="Color_Ring_Puzzle Icon">
-                <div class="project-image-container">
-                    <!-- Game Thumbnail -->
-                    <div class="project-image"
-                        style="background-image: url('images/Games/Color_Ring_Puzzle/Thumbnail.webp');">
-                    </div>
-                    <!-- <div class="game-tags">
-                        <span class="game-tag tag-puzzle">Puzzle</span>
-                    </div> -->
-                </div>
-                <!-- Game Content -->
-                <div class="project-content">
-                    <h3 class="project-title">Tic Tac Toe Pro : Color Rings</h3>
-                    <!-- <p class="project-subtitle">Hidden Objects – Uncover Secrets, Solve Puzzles, and Sharpen Your Mind</p> -->
-                    <p class="project-description">Step into a colorful world of strategy with Color Rings Tic Tac Toe:
-                        2 3 4 Multiplayer XOXO! Whether you’re challenging the CPU, playing with a friend, or joining a
-                        4-player online match, this game is all about smart moves and quick thinking. It’s easy to
-                        learn, fun for all ages, and perfect for players who love a strategic twist on the classic Tic
-                        Tac Toe!.</p>
-                    <div class="tech-list">
-                        <span class="tech-item">Unity</span>
-                        <span class="tech-item">C#</span>
-                        <span class="tech-item">Firebase</span>
-                        <span class="tech-item">Google Ads</span>
-                        <span class="tech-item">Photon PUN 2</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Crokinole Mobile:Carrom Board -->
-            <div class="project-card">
-                <!-- Game Icon -->
-                <img class="game-icon" src="images/Games/Crokinole_Mobile/icon.webp" alt="Color_Ring_Puzzle Icon">
-                <!-- Game Thumbnail -->
-                <div class="project-image-container">
-                    <div class="project-image"
-                        style="background-image: url('images/Games/Crokinole_Mobile/Thumbnail.webp');">
-                    </div>
-                    <!-- <div class="game-tags">
-                        <span class="game-tag tag-puzzle">Tag</span> </div> -->
-                </div>
-                <!-- Game Content -->
-                <div class="project-content">
-                    <h3 class="project-title">Crokinole Mobile:Carrom Board</h3>
-                    <!-- <p class="project-subtitle">Hidden Objects – Uncover Secrets, Solve Puzzles, and Sharpen Your Mind</p> -->
-                    <p class="project-description">Dive into the captivating world of Crokinole, a classic Canadian
-                        multiplayer board game dating back to the 1860s, now beautifully reimagined for your mobile
-                        device. Experience the thrill of this circular track-based new carrom game, where precision and
-                        strategy reign supreme. Challenge players from every corner of the globe, compete against your
-                        friends, or host private matches for an unforgettable tabletop gaming experience.</p>
-                    <div class="tech-list">
-                        <span class="tech-item">Unity</span>
-                        <span class="tech-item">C#</span>
-                        <span class="tech-item">Firebase</span>
-                        <span class="tech-item">Google Ads</span>
-                        <span class="tech-item">Photon PUN 2</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Ludo Speed - Dice Game Fun! -->
-            <div class="project-card">
-                <!-- Game Icon -->
-                <img class="game-icon" src="images/Games/Ludo_Speed/icon.webp" alt="Color_Ring_Puzzle Icon">
-                <!-- Game Thumbnail -->
-                <div class="project-image-container">
-                    <div class="project-image" style="background-image: url('images/Games/Ludo_Speed/Thumbnail.webp');">
-                    </div>
-                    <!-- <div class="game-tags">
-                        <span class="game-tag tag-puzzle">Tag</span> </div> -->
-                </div>
-                <!-- Game Content -->
-                <div class="project-content">
-                    <h3 class="project-title">Ludo Speed - Dice Game Fun!</h3>
-                    <!-- <p class="project-subtitle">Hidden Objects – Uncover Secrets, Solve Puzzles, and Sharpen Your Mind</p> -->
-                    <p class="project-description">Get ready to relive the fun of the classic Ludo game right on your
-                        phone! Challenge your friends, family, or the computer in this exciting board game! 🎯
-                        <br>
-                        Ludo King follows the traditional rules and the old school look of the Ludo game. Just like the
-                        kings and queens of India's golden age, your fate depends on the roll of the Ludo's dice and
-                        your strategy of moving the tokens effectively.
-                    </p>
-                    <div class="tech-list">
-                        <span class="tech-item">Unity</span>
-                        <span class="tech-item">C#</span>
-                        <span class="tech-item">Firebase</span>
-                        <span class="tech-item">Google Ads</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Ludo Cash - Win Real Money -->
-            <div class="project-card">
-                <!-- Game Icon -->
-                <img class="game-icon" src="images/Games/Ludo_Cash/icon.webp" alt="Color_Ring_Puzzle Icon">
-                <!-- Game Thumbnail -->
-                <div class="project-image-container">
-                    <div class="project-image" style="background-image: url('images/Games/Ludo_Cash/Thumbnail.webp');">
-                    </div>
-                    <!-- <div class="game-tags">
-                        <span class="game-tag tag-puzzle">Tag</span> </div> -->
-                </div>
-                <!-- Game Content -->
-                <div class="project-content">
-                    <h3 class="project-title">Ludo Cash - Win Real Money</h3>
-                    <!-- <p class="project-subtitle">Hidden Objects – Uncover Secrets, Solve Puzzles, and Sharpen Your Mind</p> -->
-                    <p class="project-description">Get ready to relive the fun of the classic Ludo game right on your
-                        phone! Challenge your friends, family, or the computer in this exciting board game! 🎯
-                        <br>
-                        Step into the world of Ludo Cash - Win Real Money, where your skills can earn you real cash
-                        prizes! Compete in thrilling tournaments and win cash prizes without spending a dime. No
-                        deposits, subscriptions, or in-app purchases required—just pure fun and rewards!
-                    </p>
-                    <div class="tech-list">
-                        <span class="tech-item">Unity</span>
-                        <span class="tech-item">C#</span>
-                        <span class="tech-item">Firebase</span>
-                        <span class="tech-item">Ads Mediation</span>
-                        <span class="tech-item">WebSockets</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Perfect Duet: Kitty Music Beat -->
-            <div class="project-card">
-                <!-- Game Icon -->
-                <img class="game-icon" src="images/Games/Perfect_Duet/icon.webp" alt="Color_Ring_Puzzle Icon">
-                <!-- Game Thumbnail -->
-                <div class="project-image-container">
-                    <div class="project-image"
-                        style="background-image: url('images/Games/Perfect_Duet/Thumbnail.webp');">
-                    </div>
-                    <!-- <div class="game-tags">
-                        <span class="game-tag tag-puzzle">Tag</span> </div> -->
-                </div>
-                <!-- Game Content -->
-                <div class="project-content">
-                    <h3 class="project-title">Perfect Duet: Kitty Music Beat</h3>
-                    <!-- <p class="project-subtitle">Hidden Objects – Uncover Secrets, Solve Puzzles, and Sharpen Your Mind</p> -->
-                    <p class="project-description">😺 Get ready to purr along with the cutest musical adventure! 😻
-                        <br>
-                        Join adorable cats as they sing and dance their way through exciting musical levels! 🐾 Tap to
-                        the rhythm 🎵 and help the kitties hit every note 🎶 in this pawsome, relaxing, and fun game.
-                        🎸🎤
-                    </p>
-                    <div class="tech-list">
-                        <span class="tech-item">Unity</span>
-                        <span class="tech-item">C#</span>
-                        <span class="tech-item">Firebase</span>
-                        <span class="tech-item">Google Ads</span>
-                    </div>
-                </div>
-            </div>
-
+            </div> -->
 
         </section>
-    </div>
 
+    </div>
 
 
     <!-- The Modal -->
     <div id="projectModal" class="modal">
+
         <div class="modal-content">
             <span class="close" onclick="closeModal()">&times;</span>
             <div class="modal-body">
@@ -491,6 +140,8 @@
     </button>
 
     <script src="js/main.js"></script>
+    <script src="js/projects.js"></script>
+
 </body>
 
 </html>

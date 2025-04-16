@@ -128,11 +128,6 @@ h2 {
     overflow: visible; /* Allow icon to extend beyond card */
 }
 
-.project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-}
-
 .game-icon {
     position: absolute;
     top: -15px;
@@ -149,7 +144,7 @@ h2 {
 }
 
 .project-card:hover .game-icon {
-    transform: scale(1.1) rotate(5deg);
+    transform: scale(1.1) rotate(2deg);
     box-shadow: 0 6px 12px rgba(0,0,0,0.3);
 }
 
@@ -208,15 +203,6 @@ h2 {
 .project-card:hover .project-image {
     transform: scale(1.05);
 }
-
-.project-card:hover .project-image {
-    filter: brightness(1);
-}
-
-.project-card .project-image {
-    filter: brightness(.7);
-}
-
 
 .project-content {
     padding: 1.5rem;
@@ -528,6 +514,7 @@ footer {
         top: -20px;
     }
 }
+
 
 /* For mobile responsiveness */
 @media (max-width: 600px) {

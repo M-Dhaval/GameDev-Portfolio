@@ -1,0 +1,34 @@
+[
+    {
+      "id": "impulse",
+      "title": "Impulse",
+      "subtitle": "The Next-Gen FPS Competitive Multiplayer Shooter",
+      "description": "An exclusive PC FPS featuring tactical combat, skill-based gunplay, and next-gen graphics for an immersive competitive experience.",
+      "image": "images/Games/Impulse/Project_Thumbnail.png",
+      "icon": "images/Games/Impulse/icon.png",
+      "tags": ["FPS", "Multiplayer"],
+      "tech": ["Unity", "C#", "AWS-Powered Servers", "Multiplayer", "Opsive"],
+      "rating": 4.5,
+      "downloads": 1200000,
+      "links": {
+        "playStore": "https://play.google.com/store/apps/details?id=com.example.impulse",
+        "appStore": null
+      }
+    },
+    {
+      "id": "champions-arena",
+      "title": "Champions Arena",
+      "subtitle": "MOBA-style Third-Person Shooter (TPS)",
+      "description": "Featuring 1v1, 2v2, and 3v3 battles with runtime map loading and three unique maps for dynamic gameplay.",
+      "image": "images/Games/ChampionsArena/Project_Thumbnail.png",
+      "icon": "images/Games/ChampionsArena/icon.webp",
+      "tags": ["MOBA", "Shooter"],
+      "tech": ["Unity", "C#", "Google Ads", "Firebase", "PlayFab"],
+      "rating": 4.8,
+      "downloads": 850000,
+      "links": {
+        "playStore": "https://play.google.com/store/apps/details?id=com.example.champions",
+        "appStore": null
+      }
+    }
+  ]
